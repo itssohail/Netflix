@@ -1,0 +1,42 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Margin</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000; /* Set the background color to black */
+        }
+        
+        /* Create the fixed margin at the top */
+        .top-margin {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 50px; /* Adjust the height as needed */
+            background-color: #000; /* Set the background color to black */
+            color: #fff; /* Set text color to white */
+            padding-left: 20px; /* Add padding to the left for text */
+            line-height: 50px; /* Center text vertically */
+        }
+    </style>
+</head>
+<body>
+    <!-- Create the top margin with the text "NETFLIX" -->
+    <div class="top-margin">
+        NETFLIX
+    </div>
+
+    <!-- Your page content goes here -->
+    <div style="margin-top: 50px;">
+        <!-- Content goes here -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...</p>
+    </div>
+</body>
+</html>

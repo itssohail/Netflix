@@ -1,0 +1,47 @@
+body
+{
+    background-color: black;
+}
+.flexbox{
+    display:flex;
+    flex-direction: row;
+    gap: 10px;
+    
+   
+}
+.brand-title 
+{    
+
+  
+        font-size: 70px;
+        color:red;
+        font-weight: bold;
+}
+header {
+         
+    font-family: Arial;
+    
+    .top-margin {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 50px; /* Adjust the height as needed */
+        background-color: #000000; /* Set the background color to black */
+        color: #ff0909; /* Set text color to white */
+        padding-left: 30px; /* Add padding to the left for text */
+        line-height: 50px; /* Center text vertically */
+        font-size: 40px;
+        font-weight: bold;
+    }
+}
+h4{
+    color: antiquewhite;
+    font-size: 15px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:400;    
+}
+img{
+    width: 180px;
+    height: 295px;
+}
